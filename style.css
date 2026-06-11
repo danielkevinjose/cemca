@@ -1,0 +1,113 @@
+@font-face{
+  font-family: Cublox;
+  src: url(Cublox.ttf);
+}
+  
+html, body {
+  margin: 0%;
+  min-height:100vh;
+  padding: 0%;
+  background: url('sky.webp') no-repeat center / cover;
+  background-attachment:fixed;
+}
+
+canva{
+  
+}
+
+h1{
+  color:white;
+  margin-bottom:0%;
+  margin-left:10%;
+  margin-right:10%;
+  font-size:500%;
+  text-location:center;
+  text-align:center;
+  font-family:Cublox;
+  textFont:Cublox;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: red;
+}
+
+p{
+  color:white;
+  font-family:Arial;
+  font-size:150%;
+}
+
+  img{
+    image-mode:center;
+    width:30%;
+    border:solid;
+    border-color:black;
+    border-radius:0%
+  }
+a{
+  color:white;
+  font-family:Verdana;
+  font-weight:Bold;
+  margin-left:2%;
+  background-color:#0b74dc;
+  font-size:100%;
+  text-location:center;
+  text-align:center;
+  text-decoration:none;
+}
+div{
+  background-color:#0b74dc;
+  text-align:center
+}
+.main-container {
+  background-color: white; 
+  background-image: repeating-linear-gradient(
+    45deg,
+    #fdfdfd,
+    #fdfdfd 10px,
+    #f5f5f5 10px,
+    #f5f5f5 20px
+  );
+  width: 900px;
+  margin: 20px auto;
+  border: 1px solid #aaa;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  min-height: 800px;
+}
+
+.navbar {
+  background: linear-gradient(to bottom, #0071ce 0%, #0055a5 100%);
+  display: flex;
+  justify-content: center;
+  padding: 8px 0;
+  border-bottom: 2px solid #000;
+}
+
+.roblox-navbar {
+  background: linear-gradient(to bottom, #0071ce 0%, #0055a5 100%);
+  display: flex;
+  justify-content: center;
+  padding: 5px 0;
+  border-bottom: 1px solid #000;
+}
+
+.notice-box {
+  background-color: #FFA500;
+  border: 2px solid #000;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.content-area {
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+  margin: 10px
+}
+
+.main-img{
+  max-width: 100%;
+  border: 1px solid #000;
+}
